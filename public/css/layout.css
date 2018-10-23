@@ -404,10 +404,18 @@ ul#nav li.current a { color: #7B498D; }
   0%   { width: 0px;  }
   100% { width: 65%;  }
 }
+@-webkit-keyframes system {
+  0%   { width: 0px;  }
+  100% { width: 65%;  }
+}
 @-moz-keyframes cicd {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
+@-webkit-keyframes cicd {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}  
 
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
@@ -415,15 +423,6 @@ ul#nav li.current a { color: #7B498D; }
 }
 
 
-@-webkit-keyframes system {
-  0%   { width: 0px;  }
-  100% { width: 65%;  }
-}
-@-webkit-keyframes cicd {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}  
-  
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */

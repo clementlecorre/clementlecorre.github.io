@@ -89,30 +89,37 @@
     "skills":[
       {
         "name":"Docker",
+        "class":"docker",
         "level":"90%"
       },
       {
         "name":"Virtualisation",
+        "class":"virtualisation",
         "level":"80%"
       },
       {
         "name":"Bash",
+        "class":"bash",
         "level":"65%"
       },
       {
         "name":"golang",
+        "class":"golang",
         "level":"50%"
       },
       {
         "name":"Aws",
+        "class":"aws",
         "level":"30%"
       },
       {
         "name":"Systeme (docker-swarm, traefik.io, HAproxy, gafana, rancher)",
+        "class":"systeme",
         "level":"65%"
       },
       {
         "name":"ci/cd",
+        "class":"cicd",
         "level":"80%"
       }
     ]
