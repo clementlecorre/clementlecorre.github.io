@@ -1,0 +1,136 @@
+{
+  "main": {
+    "name":"Clément LE CORRE",
+    "occupation":"Actuellement Ingénieur Cloud chez Cloud Temple",
+    "description":"",
+    "image":"profilepic.jpg",
+    "bio":"Passionné d'informatique et de nouvelles technologies depuis toujours. A l'issue de ces cinq années d'études, j'ai énormément progressé dans le domaine du cloud, mais plus particulièrement sur les technologies d'infrastructure as code, docker et d'intégration continue. J'explore le web afin de découvrir des nouvelles technologies.",
+    "contactmessage":"Vous pouvez me contacter ici",
+    "email": "clement@le-corre.eu",
+    "address":{
+      "street":"Une rue dans Paris",
+      "city":"Paris",
+      "zip": "75000"
+    },
+    "website": "https://❤️☁️.ws",
+    "resumedownload":"https://❤️☁️.ws",
+    "social":[
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/clement_lecorre",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/lecorre/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/clementlecorre",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"Supinfo international university - Paris",
+        "degree":"Master of Science",
+        "graduated":"Octobre 2018",
+        "description":"Enseignement orienté vers le fonctionnement de l'entreprise, l'entrepreneuriat et la mise en oeuvre de  projets complexes."
+      },
+      {
+        "school":"Supinfo international university – Paris",
+        "degree":"Bachelor of Science",
+        "graduated":"Octobre 2016",
+        "description":"Sujets variés autour de l'administration d'un parc informatique sous environnement hétérogène (Unix, Windows), des Datacenters ou encore le développement d'applications sont abordés."
+      },
+      {
+        "school": "Lycée Jean Monnet – Aurillac",
+        "degree": "BTS - informatique et réseau pour l’industrie et les services techniques",
+        "graduated": "Juin 2015",
+        "description": "Le programme du BTS IRIS repose sur un tronc commun d’enseignements généraux (français, langue vivante étrangère, économie et gestion d'entreprise) et de matières spécialisées davantage en rapport avec le monde scientifique et informatique"
+      }
+    ],
+    "work":[
+      {
+        "company":"Cloud Temple",
+        "title":"Ingénieur Cloud ",
+        "years":"Juillet 2016 - Present",
+        "description":"Environnement Technologique : VMWare, Docker, CISCO UCS, SAN SVC IBM, Intégration continue avec gitlab/docker. Scripting bash, php, powershell, golang, python"
+      },
+      {
+        "company": "Michelin - Clermont-Ferrand",
+        "title": "Analyse Data and Support SI - Pôle AIM (Afrique Inde Moyen Orient) ",
+        "years": "Juin 2015 - octobre 2015",
+        "description": "Gestion des accès, analyse de données, contrôles journaliers, commnunication interne, rédaction de standards, projet d'allègement des répertoires partagés, support aux systèmes d'informations, allègement des accès aux applications en prévision du contrôle interne, Lean Management (MEW)"
+      },
+      {
+        "company":"Innomarket, vente de déco par internet - Persan",
+        "title":"Administrateur systeme ",
+        "years":"2014 (6 semaines)",
+        "description":"Administration serveur : Mise en place d’une machine virtuelle Linux (Debian) sécurisée pour héberger un blog. Analyses statistiques : Prise en mains de l’outil pour webmaster, Google analytics, étude du trafic sur le site webzy.fr. Sauvegarde SQL : développement d’un petit script Shell afin de créer une sauvegarde quotidienne de la base."
+      },
+      {
+        "company": "T2C Transport en commun de l'agglomération clermontoise - Clermont-Ferrand",
+        "title": "Employé polyvalant (Emploi Vacances) ",
+        "years": "2013 (3 semaines)",
+        "description": "Service pôle marketing : Affichage aux stations, livraisons, renseignements clientèle."
+      },
+      {
+        "company": "Showroomprive.com - 93 Plaine Saint-Denis",
+        "title": "Stagiaire dans le service SI ",
+        "years": "2013 (4 semaines)",
+        "description": "Maintenance réseau : Mise en place de pc client, configuration : mails (exchange), disques réseaux, imprimantes, domaine Windows, etc... Caméras de surveillance : Configuration du logiciel CAMTRACE ajout de camera, groupe, utilisateur. Téléphonie IP : Configuration des postes pour les nouveaux arrivants dans l’entreprise. (INNOVAPHONE)"
+      }
+    ],
+    "skillmessage":"Voici mes différentes compétences techniques",
+    "skills":[
+      {
+        "name":"Docker",
+        "level":"90%"
+      },
+      {
+        "name":"Virtualisation",
+        "level":"80%"
+      },
+      {
+        "name":"Bash",
+        "level":"65%"
+      },
+      {
+        "name":"golang",
+        "level":"50%"
+      },
+      {
+        "name":"Aws",
+        "level":"30%"
+      },
+      {
+        "name":"Systeme (docker-swarm, traefik.io, HAproxy, gafana, rancher)",
+        "level":"65%"
+      },
+      {
+        "name":"ci/cd",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Popcube chat",
+        "category":"Projet de 4eme année",
+        "image":"popcube.svg",
+        "url":"https://popcube-docs.readthedocs.io"
+      },
+      {
+        "title": "AWS certfied - Solutions Architect Associate",
+        "category": "Amazon Web Service",
+        "image": "aws.png",
+        "url": "https://aws.amazon.com/fr/certification/certified-solutions-architect-associate"
+      }
+    ]
+  }
+}
