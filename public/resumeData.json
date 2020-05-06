@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Clément LE CORRE",
-    "occupation":"Actuellement Ingénieur Cloud chez Cloud Temple",
+    "occupation":"Actuellement DevOps Engineer chez habx",
     "description":"",
     "image":"profilepic.jpg",
     "bio":"Passionné d'informatique et de nouvelles technologies depuis toujours. A l'issue de ces cinq années d'études, j'ai énormément progressé dans le domaine du cloud, mais plus particulièrement sur les technologies d'infrastructure as code, docker et d'intégration continue. J'explore le web afin de découvrir des nouvelles technologies.",
@@ -41,13 +41,13 @@
         "description":"Enseignement orienté vers le fonctionnement de l'entreprise, l'entrepreneuriat et la mise en oeuvre de  projets complexes."
       },
       {
-        "school":"Supinfo international university – Paris",
+        "school":"Supinfo international university - Paris",
         "degree":"Bachelor of Science",
         "graduated":"Octobre 2016",
         "description":"Sujets variés autour de l'administration d'un parc informatique sous environnement hétérogène (Unix, Windows), des Datacenters ou encore le développement d'applications sont abordés."
       },
       {
-        "school": "Lycée Jean Monnet – Aurillac",
+        "school": "Lycée Jean Monnet - Aurillac",
         "degree": "BTS - informatique et réseau pour l’industrie et les services techniques",
         "graduated": "Juin 2015",
         "description": "Le programme du BTS IRIS repose sur un tronc commun d’enseignements généraux (français, langue vivante étrangère, économie et gestion d'entreprise) et de matières spécialisées davantage en rapport avec le monde scientifique et informatique"
@@ -55,9 +55,15 @@
     ],
     "work":[
       {
-        "company":"Cloud Temple",
+        "company":"Habx - Paris",
+        "title":"DevOps Engineer",
+        "years":"Juin 2016 - Present",
+        "description":"AWS : Cloudfront, S3, SQS, SNS, EKS, ELB, route53, RDS (PostgreSQL) Kubernetes : Helm, Argo (argoproj.github.io) workflow, cert-manager.io, nginx ingress, network (amazon-vpc-cni-k8s)"
+      },
+      {
+        "company":"Cloud Temple - Nanterre",
         "title":"Ingénieur Cloud ",
-        "years":"Juillet 2016 - Present",
+        "years":"Juillet 2016 - juin 2019",
         "description":"Environnement Technologique : VMWare, Docker, CISCO UCS, SAN SVC IBM, Intégration continue avec gitlab/docker. Scripting bash, php, powershell, golang, python"
       },
       {
@@ -90,42 +96,48 @@
       {
         "name":"Docker",
         "class":"docker",
-        "level":"90%"
+        "level":"99%"
       },
       {
         "name":"Virtualisation",
         "class":"virtualisation",
-        "level":"80%"
+        "level":"70%"
       },
       {
-        "name":"Bash",
-        "class":"bash",
-        "level":"65%"
-      },
-      {
-        "name":"golang",
-        "class":"golang",
+        "name":"Python",
+        "class":"Python",
         "level":"50%"
+      },
+      {
+        "name":"Golang",
+        "class":"golang",
+        "level":"60%"
       },
       {
         "name":"Aws",
         "class":"aws",
-        "level":"30%"
+        "level":"70%"
       },
       {
-        "name":"Systeme (docker-swarm, traefik.io, HAproxy, gafana, rancher)",
+        "name":"Systeme - K8s, traefik.io, HAproxy, gafana, rancher",
         "class":"systeme",
-        "level":"65%"
+        "level":"80%"
       },
       {
-        "name":"ci/cd",
+        "name":"ci/cd - GitlabCI, CircleCI, jenkins",
         "class":"cicd",
-        "level":"80%"
+        "level":"90%"
       }
     ]
   },
   "portfolio":{
     "projects": [
+      {
+        "title": "Golang - aws mq cleaner is a tool to remove sqs queues and sns topics that are no more used.",
+        "category": "Golang",
+        "image": "go.jpg",
+        "url": "https://github.com/habx/aws-mq-cleaner"
+      },
       {
         "title":"Popcube chat",
         "category":"Projet de 4eme année",
@@ -135,7 +147,7 @@
       {
         "title": "AWS certfied - Solutions Architect Associate",
         "category": "Amazon Web Service",
-        "image": "aws.png",
+        "image": "aws.jpg",
         "url": "https://aws.amazon.com/fr/certification/certified-solutions-architect-associate"
       }
     ]
