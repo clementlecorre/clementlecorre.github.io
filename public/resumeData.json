@@ -5,7 +5,7 @@
     "description":"",
     "image":"profilepic.jpg",
     "bio":"Passionné d'informatique et de nouvelles technologies depuis toujours. A l'issue de ces cinq années d'études, j'ai énormément progressé dans le domaine du cloud, mais plus particulièrement sur les technologies d'infrastructure as code, docker et d'intégration continue. J'explore le web afin de découvrir des nouvelles technologies.",
-    "contactmessage":"Vous pouvez me contacter ici",
+    "contactmessage":"",
     "email": "clement@le-corre.eu",
     "address":{
       "street":"Une rue dans Paris",
@@ -94,44 +94,63 @@
     "skillmessage":"Voici mes différentes compétences techniques",
     "skills":[
       {
+        "name":"Container Orchestration",
+        "details": "Kubernetes, Rancher, Swarm",
+        "class":"containero",
+        "level":"90%"
+      },
+      {
         "name":"Docker",
+        "details": "Build, runetime",
         "class":"docker",
         "level":"99%"
       },
       {
-        "name":"Virtualisation",
-        "class":"virtualisation",
-        "level":"70%"
-      },
-      {
-        "name":"Python",
-        "class":"Python",
-        "level":"50%"
-      },
-      {
-        "name":"Golang",
-        "class":"golang",
-        "level":"60%"
-      },
-      {
-        "name":"Aws",
-        "class":"aws",
-        "level":"70%"
-      },
-      {
-        "name":"Systeme - K8s, traefik.io, HAproxy, gafana, rancher",
-        "class":"systeme",
+        "name":"Coding",
+        "details": "Python, Golang, Java",
+        "class":"coding",
         "level":"80%"
       },
       {
-        "name":"ci/cd - GitlabCI, CircleCI, jenkins",
+        "name":"Cloud",
+        "details": "Cloudfront, S3, SQS, SNS, EKS, ELB, route53, RDS (PostgreSQL)",
+        "class":"cloud",
+        "level":"90%"
+      },
+      {
+        "name":"System",
+        "details": "Nginx, traefik.io, HAproxy, gafana, scalyr.com, Sentry",
+        "class":"system",
+        "level":"80%"
+      },
+      {
+        "name":"CI/CD",
+        "details": "GitlabCI, CircleCI, jenkins, Gtihub Action",
         "class":"cicd",
         "level":"90%"
+      },
+      {
+        "name":"SQL",
+        "details": "Postgres, MySql",
+        "class":"sql",
+        "level":"40%"
       }
     ]
   },
   "portfolio":{
     "projects": [
+      {
+        "title": "Argo - Scheduled & distributed Cypress tests for multiple environments & clients with Argo",
+        "category": "Argo",
+        "image": "argo.png",
+        "url": "https://www.habx.com/tech/cypress-argo"
+      },
+      {
+        "title": "Golang - go library, Postgres commands (pg_restore, pg_dumpg)",
+        "category": "Golang",
+        "image": "go.jpg",
+        "url": "https://github.com/habx/pg-commands"
+      },
       {
         "title": "Golang - aws mq cleaner is a tool to remove sqs queues and sns topics that are no more used.",
         "category": "Golang",

@@ -59,13 +59,13 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
+   color: rgb(40, 0, 43);
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 20px/1.9em 'librebaskerville-regular', serif;
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
@@ -73,7 +73,7 @@ header .banner-text h3 {
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #fff;
+   color: rgb(30, 0, 31);
 }
 header .banner-text hr {
    width: 60%;
@@ -303,13 +303,19 @@ ul#nav li.current a { color: #7B498D; }
   	border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+	font: 20px 'opensans-bold', sans-serif;
+   color: #1d1d1d;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
-	top: -36px;
+	top: -50px;
+}
+.bars li em p {
+	font: 13px 'opensans-bold';
+   color: #313131;
+	font-weight: normal;
+   position: relative;
 }
 .bar-expand {
    position: absolute;
@@ -318,108 +324,101 @@ ul#nav li.current a { color: #7B498D; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #692a67;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-.docker {
-  	-moz-animation: docker 2s ease;
-  	-webkit-animation: docker 2s ease;
+.containero {
+   -moz-animation: containero 2s ease;
+   -webkit-animation: containero 2s ease;
 }
 
-.virtualisation {
-  	-moz-animation: virtualisation 2s ease;
-  	-webkit-animation: virtualisation 2s ease;
-}
-.bash {
-  	-moz-animation: bash 2s ease;
-  	-webkit-animation: bash 2s ease;
-}
-.golang {
-  	-moz-animation: golang 2s ease;
-  	-webkit-animation: golang 2s ease;
-}
-.aws {
-  	-moz-animation: aws 2s ease;
-  	-webkit-animation: aws 2s ease;
-}
-.system {
-  	-moz-animation: system 2s ease;
-  	-webkit-animation: system 2s ease;
-}
-.cicd {
-  	-moz-animation: cicd 2s ease;
-  	-webkit-animation: cicd 2s ease;
-}
+@-moz-keyframes containero {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ 
+@-webkit-keyframes containero {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
 
+ .docker {
+   -moz-animation: docker 2s ease;
+   -webkit-animation: docker 2s ease;
+}
 @-moz-keyframes docker {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
+ 0%   { width: 0px;  }
+ 100% { width: 99%;  }
 }
-
 @-webkit-keyframes docker {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
+ 0%   { width: 0px;  }
+ 100% { width: 99%;  }
 }
 
-@-moz-keyframes virtualisation {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+.coding {
+   -moz-animation: coding 2s ease;
+   -webkit-animation: coding 2s ease;
 }
-@-webkit-keyframes virtualisation {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+@-moz-keyframes coding {
+ 0%   { width: 0px;  }
+ 100% { width: 80%;  }
 }
-
-@-moz-keyframes bash {
-  0%   { width: 0px;  }
-  100% { width: 65%;  }
-}
-@-webkit-keyframes bash {
-  0%   { width: 0px;  }
-  100% { width: 65%;  }
+@-webkit-keyframes coding {
+ 0%   { width: 0px;  }
+ 100% { width: 80%;  }
 }
 
-@-moz-keyframes golang {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+.cloud {
+  	-moz-animation: cloud 2s ease;
+  	-webkit-animation: cloud 2s ease;
 }
-@-webkit-keyframes golang {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
+@-moz-keyframes cloud {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ @-webkit-keyframes cloud {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
 
-@-moz-keyframes aws {
-  0%   { width: 0px;  }
-  100% { width: 30%;  }
+.system {
+   -moz-animation: system 2s ease;
+   -webkit-animation: system 2s ease;
 }
-@-webkit-keyframes aws {
-  0%   { width: 0px;  }
-  100% { width: 30%;  }
-}
-
 @-moz-keyframes system {
-  0%   { width: 0px;  }
-  100% { width: 65%;  }
+ 0%   { width: 0px;  }
+ 100% { width: 80%;  }
 }
 @-webkit-keyframes system {
-  0%   { width: 0px;  }
-  100% { width: 65%;  }
+ 0%   { width: 0px;  }
+ 100% { width: 80%;  }
+}
+.cicd {
+   -moz-animation: cicd 2s ease;
+   -webkit-animation: cicd 2s ease;
 }
 @-moz-keyframes cicd {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+ 0%   { width: 0px;  }
+ 100% { width: 90%;  }
 }
 @-webkit-keyframes cicd {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}  
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+ 0%   { width: 0px;  }
+ 100% { width: 90%;  }
+}
+.sql {
+   -moz-animation: sql 2s ease;
+   -webkit-animation: sql 2s ease;
+}
+@-moz-keyframes sql {
+ 0%   { width: 0px;  }
+ 100% { width: 40%;  }
+}
+@-webkit-keyframes sql {
+ 0%   { width: 0px;  }
+ 100% { width: 40%;  }
 }
 
 
