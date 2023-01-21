@@ -1,34 +1,34 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-class Footer extends Component {
-  render() {
+function Footer(props) {
 
-    if(this.props.data){
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
-    }
+  if (props.data) {
+    var networks = props.data.social.map(function (network) {
+      return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+    })
+  }
 
-    return (
-      <footer>
+  return (
+    <footer>
 
-     <div className="row">
+      <div className="row">
         <div className="twelve columns">
-           <ul className="social-links">
-              {networks}
-           </ul>
+          <ul className="social-links">
+            {networks}
+          </ul>
 
-           <ul className="copyright">
-              <li>&copy; Copyright 2018 Clément LE CORRE</li>
-              <li>Make with ️️️️<span role="img" aria-label="heart"> ❤️ </span> in Paris</li>
-           </ul>
+          <ul className="copyright">
+            <li>&copy; Copyright 2018 Clément LE CORRE</li>
+            <li>Make with ❤️</li>
+          </ul>
 
         </div>
-        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
-     </div>
-  </footer>
-    );
-  }
+        <div id="go-top"><Link className="smoothscroll" title="Back to home" to="/#home"><i className="icon-up-open"></i></Link></div>
+      </div>
+    </footer>
+  );
 }
+
 
 export default Footer;

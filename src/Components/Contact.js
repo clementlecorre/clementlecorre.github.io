@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 
-class Contact extends Component {
-  render() {
+function Contact(props) {
 
-    if(this.props.data){
-      var name = this.props.data.name;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      var email = this.props.data.email;
-      var message = this.props.data.contactmessage;
-    }
+   if (props.data) {
+      var name = props.data.name;
+      var street = props.data.address.street;
+      var city = props.data.address.city;
+      var zip = props.data.address.zip;
+      var phone = props.data.phone;
+      var email = props.data.email;
+      var message = props.data.contactmessage;
+   }
 
-    return (
+   return (
       <section id="contact">
 
          <div className="row section-head">
@@ -26,7 +25,7 @@ class Contact extends Component {
 
             <div className="ten columns">
 
-                  <p className="lead">{message}</p>
+               <p className="lead">{message}</p>
 
             </div>
 
@@ -77,14 +76,14 @@ class Contact extends Component {
             <aside className="four columns footer-widgets">
                <div className="widget widget_contact">
 
-					   <h4>Adresse et téléphone</h4>
-					   <p className="address">
-						   {name}<br />
-						   {street} <br />
-						   {city}, {zip}<br />
-						   <span>{phone}</span>
-					   </p>
-				   </div>
+                  <h4>Adresse et téléphone</h4>
+                  <p className="address">
+                     {name}<br />
+                     {street} <br />
+                     {city}, {zip}<br />
+                     <span>{phone}</span>
+                  </p>
+               </div>
 
                {/* <div className="widget widget_tweets">
                   <h4 className="widget-title">Latest Tweets</h4>
@@ -108,10 +107,10 @@ class Contact extends Component {
                   </ul>
 		         </div> */}
             </aside>
-      </div>
-   </section>
-    );
-  }
+         </div>
+      </section>
+   );
 }
+
 
 export default Contact;

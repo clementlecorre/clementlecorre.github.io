@@ -1,0 +1,15 @@
+/* Mise en forme de l'en-tête */
+.reactMarkDown {
+    background-color: #FFF;
+    color: rgb(56, 56, 56);
+    padding: 1rem;
+}
+.reactMarkDown h1{
+    text-align: center;
+}
+
+.reactMarkDown .content {
+    width: 100%;
+    max-width: 800px;
+    margin-inline: auto;
+}
