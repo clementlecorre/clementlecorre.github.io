@@ -6,11 +6,12 @@ import Home from './Components/pages/home';
 import ThreeD from './Components/pages/ThreedAtHabx';
 import Graphcurl from './Components/pages/GraphcurlAtHabx';
 import Cypress from './Components/pages/CypressAtHabx';
+import Habxops from './Components/pages/Habxops';
 
 import $ from 'jquery';
 import Footer from './Components/Footer';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 function App() {
   useEffect(() => {
@@ -41,6 +42,8 @@ function App() {
             <Route exact path="/3d-at-habx" element={<ThreeD state={state}/>} />
             <Route exact path="/graphcurl-at-habx" element={<Graphcurl state={state}/>} />
             <Route exact path="/cypress-at-habx" element={<Cypress state={state}/>} />
+            <Route exact path="/habxops" element={<Habxops state={state}/>} />
+            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           <Footer data={state.main}/>
       </Router>
