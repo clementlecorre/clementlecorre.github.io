@@ -4,17 +4,12 @@
 
 ## Introduction
 
-Habxops is a bot that manages recurring tasks on Habx projects. 
+Habxops is a bot that manages recurring "tasks" on Habx projects. 
 
-It is based on:
+It's based on:
 
-
-🥊   [slack-go](https://github.com/slack-go/slack)
-
+🥊   [slack-go](https://github.com/slack-go/slack)</br>
 🥊   [gin-gonic](github.com/gin-gonic/gin)
-
-🥊   [argos-libs] Internal libs
-
 
 ## Why Habxops
 
@@ -24,23 +19,15 @@ Due to the large number of tasks executed by developers daily, we need to simpli
 
 
 
-⭐️   Creating new releases with a changelog
-
-⭐️   Adding new PG extensions
-
-⭐️   Launching tests on a project or environment (dev, staging, prod)
-
-⭐️   Setting up PG rules on a database
-
-⭐️   Rolling back versions on a project
-
-⭐️   Restarting pod services
-
-⭐️   Deploying staging to production (with a confirmation) for a project
-
-⭐️   Checking the version of a project
-
-⭐️   Launching orbital processing (3D industry)
+⭐️   Creating new releases with a changelog</br>
+⭐️   Adding new PG extensions</br>
+⭐️   Launching tests on a project or environment (dev, staging, prod)</br>
+⭐️   Setting up PG rules on a database</br>
+⭐️   Rolling back versions on a project</br>
+⭐️   Restarting pod services</br>
+⭐️   Deploying staging to production (with a confirmation) for a project</br>
+⭐️   Checking the version of a project</br>
+⭐️   Launching orbital processing (3D industry)</br>
 
 ## HabxOps + Argo Workflow
 
@@ -96,6 +83,14 @@ Argo workflow duration (less than 1 minute)
 </div> 
 <br />
 
+Python script exec somes actions : Jira fix version creation and links, Github Tag creation, Github Release create, Changelog génation
+
+<br />
+<div style="width: 100%; max-width: 900px; margin: 0 auto;">
+    <img src="./images/portfolio/habxopsAtHabx/releases.png"/>
+</div> 
+<br />
+
 
 Some number of "create releases" action across all repositories (~400) per month.
 
@@ -104,6 +99,8 @@ Some number of "create releases" action across all repositories (~400) per month
     <img src="./images/portfolio/habxopsAtHabx/re-actions-count.png"/>
 </div> 
 <br />
+
+
 
 ### Other major automation actions
 

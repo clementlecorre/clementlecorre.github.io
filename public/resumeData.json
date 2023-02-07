@@ -165,7 +165,7 @@
       },
       {
         "title": "Produce apartment renderings with Blender and Argo on AWS machines with high scalability",
-        "category": "industrilize 3D at habx",
+        "category": "argo",
         "image": "bake-argo-blender-resized.jpg",
         "url": "/3d-at-habx"
       },
@@ -180,6 +180,12 @@
         "category": "testing",
         "image": "cypress-argo-resized.jpg",
         "url": "/cypress-at-habx"
+      },
+      {
+        "title": "How to automate dev tooling at Habx",
+        "category": "Golang",
+        "image": "go-resized.jpg",
+        "url": "/habxops"
       }
     ]
   }
