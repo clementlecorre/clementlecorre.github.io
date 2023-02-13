@@ -36,7 +36,7 @@ function App() {
 
     return state ?  (
       <>
-      <HashRouter>
+      <HashRouter  basename='/'>
           <Routes>
             <Route exact path='/' element={<Home state={state} />} />
             <Route exact path="/3d-at-habx" element={<ThreeD state={state}/>} />
