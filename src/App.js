@@ -11,7 +11,7 @@ import Habxops from './Components/pages/Habxops';
 import $ from 'jquery';
 import Footer from './Components/Footer';
 
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Route, Routes, Navigate } from 'react-router-dom';
 
 function App() {
   useEffect(() => {
@@ -36,7 +36,7 @@ function App() {
 
     return state ?  (
       <>
-      <Router>
+      <HashRouter>
           <Routes>
             <Route exact path='/' element={<Home state={state} />} />
             <Route exact path="/3d-at-habx" element={<ThreeD state={state}/>} />
@@ -46,7 +46,7 @@ function App() {
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           <Footer data={state.main}/>
-      </Router>
+      </HashRouter>
 
     </>
     ) : null;
