@@ -143,49 +143,57 @@
         "title": "Golang - go library, Postgres commands (pg_restore, pg_dumpg)",
         "category": "Golang",
         "image": "go-resized.jpg",
+        "url_internal": false,
         "url": "https://github.com/habx/pg-commands"
       },
       {
         "title": "Golang - aws mq cleaner is a tool to remove sqs queues and sns topics that are no more used.",
         "category": "Golang",
         "image": "go-resized.jpg",
+        "url_internal": false,
         "url": "https://github.com/habx/aws-mq-cleaner"
       },
       {
         "title":"Popcube chat",
         "category":"Projet de 4eme année",
         "image":"popcube-resized.svg",
+        "url_internal": false,
         "url":"https://popcube-docs.readthedocs.io"
       },
       {
         "title": "AWS certfied - Solutions Architect Associate",
         "category": "Amazon Web Service",
         "image": "aws-resized.jpg",
+        "url_internal": false,
         "url": "https://aws.amazon.com/fr/certification/certified-solutions-architect-associate"
       },
       {
         "title": "Produce apartment renderings with Blender and Argo on AWS machines with high scalability",
         "category": "argo",
         "image": "bake-argo-blender-resized.jpg",
-        "url": "#/3d-at-habx"
+        "url_internal": true,
+        "url": "/3d-at-habx"
       },
       {
         "title": "A tool to make graphQL queries easily - tooling",
         "category": "tooling",
         "image": "graphcurl-resized.png",
-        "url": "#/graphcurl-at-habx"
+        "url_internal": true,
+        "url": "/graphcurl-at-habx"
       },
       {
         "title": "Scheduled & distributed Cypress tests for multiple environments & clients with Argo",
         "category": "testing",
         "image": "cypress-argo-resized.jpg",
-        "url": "#/cypress-at-habx"
+        "url_internal": true,
+        "url": "/cypress-at-habx"
       },
       {
         "title": "How to automate dev tooling at Habx",
         "category": "Golang",
         "image": "go-resized.jpg",
-        "url": "#/habxops"
+        "url_internal": true,
+        "url": "/habxops"
       }
     ]
   }
