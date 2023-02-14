@@ -167,25 +167,25 @@
         "title": "Produce apartment renderings with Blender and Argo on AWS machines with high scalability",
         "category": "argo",
         "image": "bake-argo-blender-resized.jpg",
-        "url": "/3d-at-habx"
+        "url": "#/3d-at-habx"
       },
       {
         "title": "A tool to make graphQL queries easily - tooling",
         "category": "tooling",
         "image": "graphcurl-resized.png",
-        "url": "/graphcurl-at-habx"
+        "url": "#/graphcurl-at-habx"
       },
       {
         "title": "Scheduled & distributed Cypress tests for multiple environments & clients with Argo",
         "category": "testing",
         "image": "cypress-argo-resized.jpg",
-        "url": "/cypress-at-habx"
+        "url": "#/cypress-at-habx"
       },
       {
         "title": "How to automate dev tooling at Habx",
         "category": "Golang",
         "image": "go-resized.jpg",
-        "url": "/habxops"
+        "url": "#/habxops"
       }
     ]
   }

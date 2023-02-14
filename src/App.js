@@ -39,10 +39,10 @@ function App() {
       <HashRouter  basename='/'>
           <Routes>
             <Route exact path='/' element={<Home state={state} />} />
-            <Route exact path="/3d-at-habx" element={<ThreeD state={state}/>} />
-            <Route exact path="/graphcurl-at-habx" element={<Graphcurl state={state}/>} />
-            <Route exact path="/cypress-at-habx" element={<Cypress state={state}/>} />
-            <Route exact path="/habxops" element={<Habxops state={state}/>} />
+            <Route exact path="#/3d-at-habx" element={<ThreeD state={state}/>} />
+            <Route exact path="#/graphcurl-at-habx" element={<Graphcurl state={state}/>} />
+            <Route exact path="#/cypress-at-habx" element={<Cypress state={state}/>} />
+            <Route exact path="#/habxops" element={<Habxops state={state}/>} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           <Footer data={state.main}/>
