@@ -13,3 +13,34 @@
     max-width: 800px;
     margin-inline: auto;
 }
+
+.reactMarkDown  thead th, tfoot th, tfoot td {
+    border: 3px solid purple;
+}
+
+.reactMarkDown table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+.reactMarkDown thead th:nth-child(1) {
+    width: 30%;
+}
+
+.reactMarkDown thead th:nth-child(2) {
+    width: 20%;
+}
+
+.reactMarkDown thead th:nth-child(3) {
+    width: 15%;
+}
+
+.reactMarkDown thead th:nth-child(4) {
+    width: 35%;
+}
+
+.reactMarkDown  th, td {
+    padding: 20px;
+}
