@@ -5,23 +5,41 @@ function Portfolio(props) {
   if (props.data) {
     var projects = props.data.projects.map(function (project) {
       const projectImage = 'images/portfolio/' + project.image;
-      const linkProps = project.url_internal ? { to: project.url } : { href: project.url };
-      return (
-        <div key={project.title} className="columns portfolio-item">
-          <div className="item-wrap">
-            <Link title={project.title} {...linkProps}>
-              <img alt={project.title} src={projectImage} />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>{project.title}</h5>
-                  <p>{project.category}</p>
+      if (project.url_internal) {
+        return (
+          <div key={project.title} className="columns portfolio-item">
+            <div className="item-wrap">
+              <Link to={project.url}>
+                <img alt={project.title} src={projectImage} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>{project.title}</h5>
+                    <p>{project.category}</p>
+                  </div>
                 </div>
-              </div>
-              <div className="link-icon"><i className="fa fa-link"></i></div>
-            </Link>
+                <div className="link-icon"><i className="fa fa-link"></i></div>
+              </Link>
+            </div>
           </div>
-        </div>
-      );
+        );
+      } else {
+        return (
+          <div key={project.title} className="columns portfolio-item">
+            <div className="item-wrap">
+              <a title={project.title} href={project.url} target="_blank" rel="noopener noreferrer">
+                <img alt={project.title} src={projectImage} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>{project.title}</h5>
+                    <p>{project.category}</p>
+                  </div>
+                </div>
+                <div className="link-icon"><i className="fa fa-link"></i></div>
+              </a>
+            </div>
+          </div>
+        );
+      }
     });
   }
 
